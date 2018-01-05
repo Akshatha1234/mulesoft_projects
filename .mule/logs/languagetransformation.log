@@ -1,0 +1,59 @@
+2017-12-27 10:42:34,175 [main] INFO  org.mule.module.launcher.application.DefaultMuleApplication - 
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
++ Initializing app 'languagetransformation'                +
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+2017-12-27 10:42:34,678 [main] INFO  org.mule.lifecycle.AbstractLifecycleManager - Initialising RegistryBroker
+2017-12-27 10:42:34,924 [main] INFO  org.mule.module.extension.internal.manager.DefaultExtensionManager - Starting discovery of extensions
+2017-12-27 10:42:35,187 [main] INFO  org.mule.module.extension.internal.manager.DefaultExtensionManager - Discovered 1 extensions
+2017-12-27 10:42:35,187 [main] INFO  org.mule.module.extension.internal.manager.DefaultExtensionManager - Registering extension validation (version 3.8)
+2017-12-27 10:42:35,376 [main] INFO  org.mule.config.spring.MuleArtifactContext - Refreshing org.mule.config.spring.MuleArtifactContext@544630b7: startup date [Wed Dec 27 10:42:35 IST 2017]; root of context hierarchy
+2017-12-27 10:42:38,369 [main] INFO  org.mule.config.spring.processors.NoDevkitInjectorProcessor - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2017-12-27 10:42:40,258 [main] WARN  org.mule.module.ognl.expression.OgnlExpressionEvaluator - OGNL module is deprecated and will be removed in Mule 4.0. Use MEL expressions instead.
+2017-12-27 10:42:41,566 [main] INFO  org.mule.util.journal.TransactionJournal - Using files for tx logs C:\Users\M1042933\AnypointStudio\workspace\.mule\.\.mule\languagetransformation\queue-tx-log\tx1.log and C:\Users\M1042933\AnypointStudio\workspace\.mule\.\.mule\languagetransformation\queue-tx-log\tx2.log
+2017-12-27 10:42:41,617 [main] INFO  org.mule.util.journal.TransactionJournal - Using files for tx logs C:\Users\M1042933\AnypointStudio\workspace\.mule\.\.mule\languagetransformation\queue-xa-tx-log\tx1.log and C:\Users\M1042933\AnypointStudio\workspace\.mule\.\.mule\languagetransformation\queue-xa-tx-log\tx2.log
+2017-12-27 10:42:41,849 [main] INFO  org.mule.lifecycle.AbstractLifecycleManager - Initialising model: _muleSystemModel
+2017-12-27 10:42:41,849 [main] INFO  org.mule.construct.FlowConstructLifecycleManager - Initialising flow: languagetransformationFlow
+2017-12-27 10:42:41,849 [main] INFO  org.mule.exception.DefaultMessagingExceptionStrategy - Initialising exception listener: org.mule.exception.DefaultMessagingExceptionStrategy@2404b5a
+2017-12-27 10:42:41,908 [main] INFO  org.mule.processor.SedaStageLifecycleManager - Initialising service: languagetransformationFlow.stage1
+2017-12-27 10:42:42,638 [main] INFO  org.mule.config.spring.SpringXmlConfigurationBuilder - Configured Mule using "org.mule.config.spring.SpringXmlConfigurationBuilder" with configuration resource(s): "[ConfigResource{resourceName='C:\Users\M1042933\AnypointStudio\workspace\.mule\apps\languagetransformation\languagetransformation.xml'}]"
+2017-12-27 10:42:42,638 [main] INFO  org.mule.config.builders.AutoConfigurationBuilder - Configured Mule using "org.mule.config.builders.AutoConfigurationBuilder" with configuration resource(s): "[ConfigResource{resourceName='C:\Users\M1042933\AnypointStudio\workspace\.mule\apps\languagetransformation\languagetransformation.xml'}]"
+2017-12-27 10:42:45,699 [main] INFO  org.mule.module.launcher.application.DefaultMuleApplication - 
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
++ Starting app 'languagetransformation'                    +
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+2017-12-27 10:42:45,718 [main] INFO  org.mule.util.queue.QueueXaResourceManager - Starting ResourceManager
+2017-12-27 10:42:45,718 [main] INFO  org.mule.util.queue.QueueXaResourceManager - Started ResourceManager
+2017-12-27 10:42:45,862 [main] INFO  org.mule.module.http.internal.listener.DefaultHttpListenerConfig - Listening for requests on http://localhost:8081
+2017-12-27 10:42:45,862 [main] INFO  org.mule.modules.oauth2.provider.agents.DefaultSplashScreenAgent - 
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
++ DevKit Extensions (0) used in this application 
+                             +
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+2017-12-27 10:42:45,862 [main] INFO  org.mule.lifecycle.AbstractLifecycleManager - Starting model: _muleSystemModel
+2017-12-27 10:42:45,877 [main] INFO  org.mule.construct.FlowConstructLifecycleManager - Starting flow: languagetransformationFlow
+2017-12-27 10:42:45,877 [main] INFO  org.mule.processor.SedaStageLifecycleManager - Starting service: languagetransformationFlow.stage1
+2017-12-27 10:42:45,965 [main] INFO  org.mule.module.management.agent.WrapperManagerAgent - This JVM hasn't been launched by the wrapper, the agent will not run.
+2017-12-27 10:42:46,004 [main] INFO  org.mule.DefaultMuleContext - 
+**********************************************************************
+* Application: languagetransformation                                *
+* OS encoding: \, Mule encoding: UTF-8                               *
+*                                                                    *
+* Agents Running:                                                    *
+*   Batch module default engine                                      *
+*   JMX Agent                                                        *
+*   DevKit Extension Information                                     *
+*   Wrapper Manager                                                  *
+**********************************************************************
+2017-12-27 10:43:16,209 [[languagetransformation].HTTP_Listener_Configuration.worker.01] INFO  org.mule.api.processor.LoggerMessageProcessor - The replay "am akshatha." means"my name is akshatha"innull
+2017-12-27 10:43:16,429 [[languagetransformation].HTTP_Listener_Configuration.worker.01] INFO  org.mule.module.http.internal.listener.HttpListenerRegistry - No listener found for request: (GET)/favicon.ico
+2017-12-27 10:43:16,429 [[languagetransformation].HTTP_Listener_Configuration.worker.01] INFO  org.mule.module.http.internal.listener.HttpListenerRegistry - Available listeners are: [([get])/]
+2017-12-27 10:43:28,481 [[languagetransformation].HTTP_Listener_Configuration.worker.03] INFO  org.mule.api.processor.LoggerMessageProcessor - The replay "am akshatha." means"my name is akshatha"innull
+2017-12-27 10:43:45,375 [[languagetransformation].HTTP_Listener_Configuration.worker.02] INFO  org.mule.api.processor.LoggerMessageProcessor - The replay "nanna hesaru akshatha." means"my name is akshatha"inkannada
+2017-12-27 10:43:53,366 [[languagetransformation].HTTP_Listener_Configuration.worker.02] INFO  org.mule.api.processor.LoggerMessageProcessor - The replay "nanna hesaru akshatha." means"my name is akshatha"inkannada
+2017-12-27 10:43:57,233 [[languagetransformation].HTTP_Listener_Configuration.worker.02] INFO  org.mule.api.processor.LoggerMessageProcessor - The replay "nanna hesaru akshatha." means"my name is akshatha"inkannada
+2017-12-27 10:44:05,246 [[languagetransformation].HTTP_Listener_Configuration.worker.02] INFO  org.mule.api.processor.LoggerMessageProcessor - The replay "naa peru akshatha." means"my name is akshatha"intelgu
+2017-12-27 10:51:27,565 [[languagetransformation].HTTP_Listener_Configuration.worker.02] INFO  org.mule.api.processor.LoggerMessageProcessor - The replay "am akshatha." means"my name is akshatha"intelgu/kannada
+2017-12-27 10:51:36,724 [[languagetransformation].HTTP_Listener_Configuration.worker.02] INFO  org.mule.api.processor.LoggerMessageProcessor - The replay "am akshatha." means"my name is akshatha"intelgu/kannada
+2017-12-27 10:51:57,275 [[languagetransformation].HTTP_Listener_Configuration.worker.02] INFO  org.mule.api.processor.LoggerMessageProcessor - The replay "am akshatha." means"my name is akshatha"intelgu/?language=kannada
+2017-12-27 10:52:02,595 [[languagetransformation].HTTP_Listener_Configuration.worker.02] INFO  org.mule.api.processor.LoggerMessageProcessor - The replay "am akshatha." means"my name is akshatha"intelgu/?language=kannada
+2017-12-27 10:52:16,366 [[languagetransformation].HTTP_Listener_Configuration.worker.02] INFO  org.mule.api.processor.LoggerMessageProcessor - The replay "naa peru akshatha." means"my name is akshatha"intelgu

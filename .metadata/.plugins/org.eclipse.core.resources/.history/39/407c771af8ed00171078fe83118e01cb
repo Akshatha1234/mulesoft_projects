@@ -1,0 +1,5 @@
+#Sat Dec 30 12:15:47 IST 2017
+encoding=UTF-8
+domain=default
+redeployment.enabled=true
+config.resources=employee.xml

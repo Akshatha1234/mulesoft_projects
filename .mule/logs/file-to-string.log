@@ -1,0 +1,79 @@
+2017-12-27 09:09:22,091 [main] INFO  org.mule.module.launcher.application.DefaultMuleApplication - 
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
++ Initializing app 'file-to-string'                        +
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+2017-12-27 09:09:22,552 [main] INFO  org.mule.lifecycle.AbstractLifecycleManager - Initialising RegistryBroker
+2017-12-27 09:09:22,844 [main] INFO  org.mule.module.extension.internal.manager.DefaultExtensionManager - Starting discovery of extensions
+2017-12-27 09:09:23,164 [main] INFO  org.mule.module.extension.internal.manager.DefaultExtensionManager - Discovered 1 extensions
+2017-12-27 09:09:23,164 [main] INFO  org.mule.module.extension.internal.manager.DefaultExtensionManager - Registering extension validation (version 3.8)
+2017-12-27 09:09:23,364 [main] INFO  org.mule.config.spring.MuleArtifactContext - Refreshing org.mule.config.spring.MuleArtifactContext@67427b69: startup date [Wed Dec 27 09:09:23 IST 2017]; root of context hierarchy
+2017-12-27 09:09:26,448 [main] INFO  org.mule.config.spring.processors.NoDevkitInjectorProcessor - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2017-12-27 09:09:28,454 [main] WARN  org.mule.module.ognl.expression.OgnlExpressionEvaluator - OGNL module is deprecated and will be removed in Mule 4.0. Use MEL expressions instead.
+2017-12-27 09:09:28,842 [main] INFO  org.mule.util.journal.TransactionJournal - Using files for tx logs C:\Users\M1042933\AnypointStudio\workspace\.mule\.\.mule\file-to-string\queue-tx-log\tx1.log and C:\Users\M1042933\AnypointStudio\workspace\.mule\.\.mule\file-to-string\queue-tx-log\tx2.log
+2017-12-27 09:09:28,902 [main] INFO  org.mule.util.journal.TransactionJournal - Using files for tx logs C:\Users\M1042933\AnypointStudio\workspace\.mule\.\.mule\file-to-string\queue-xa-tx-log\tx1.log and C:\Users\M1042933\AnypointStudio\workspace\.mule\.\.mule\file-to-string\queue-xa-tx-log\tx2.log
+2017-12-27 09:09:28,922 [main] INFO  org.mule.lifecycle.AbstractLifecycleManager - Initialising connector: connector.file.mule.default
+2017-12-27 09:09:29,278 [main] INFO  org.mule.lifecycle.AbstractLifecycleManager - Initialising model: _muleSystemModel
+2017-12-27 09:09:29,290 [main] INFO  org.mule.construct.FlowConstructLifecycleManager - Initialising flow: file-to-string
+2017-12-27 09:09:29,290 [main] INFO  org.mule.exception.DefaultMessagingExceptionStrategy - Initialising exception listener: org.mule.exception.DefaultMessagingExceptionStrategy@2fd954f
+2017-12-27 09:09:29,342 [main] INFO  org.mule.processor.SedaStageLifecycleManager - Initialising service: file-to-string.stage1
+2017-12-27 09:09:30,374 [main] INFO  org.mule.config.spring.SpringXmlConfigurationBuilder - Configured Mule using "org.mule.config.spring.SpringXmlConfigurationBuilder" with configuration resource(s): "[ConfigResource{resourceName='C:\Users\M1042933\AnypointStudio\workspace\.mule\apps\file-to-string\file-to-string.xml'}]"
+2017-12-27 09:09:30,374 [main] INFO  org.mule.config.builders.AutoConfigurationBuilder - Configured Mule using "org.mule.config.builders.AutoConfigurationBuilder" with configuration resource(s): "[ConfigResource{resourceName='C:\Users\M1042933\AnypointStudio\workspace\.mule\apps\file-to-string\file-to-string.xml'}]"
+2017-12-27 09:09:33,443 [main] INFO  org.mule.module.launcher.application.DefaultMuleApplication - 
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
++ Starting app 'file-to-string'                            +
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+2017-12-27 09:09:33,457 [main] INFO  org.mule.util.queue.QueueXaResourceManager - Starting ResourceManager
+2017-12-27 09:09:33,457 [main] INFO  org.mule.util.queue.QueueXaResourceManager - Started ResourceManager
+2017-12-27 09:09:33,577 [main] INFO  org.mule.transport.file.FileConnector - Connected: FileConnector
+{
+  name=connector.file.mule.default
+  lifecycle=initialise
+  this=6e4599c0
+  numberOfConcurrentTransactedReceivers=4
+  createMultipleTransactedReceivers=true
+  connected=true
+  supportedProtocols=[file]
+  serviceOverrides=<none>
+}
+
+2017-12-27 09:09:33,577 [main] INFO  org.mule.transport.file.FileConnector - Starting: FileConnector
+{
+  name=connector.file.mule.default
+  lifecycle=initialise
+  this=6e4599c0
+  numberOfConcurrentTransactedReceivers=4
+  createMultipleTransactedReceivers=true
+  connected=true
+  supportedProtocols=[file]
+  serviceOverrides=<none>
+}
+
+2017-12-27 09:09:33,585 [main] INFO  org.mule.lifecycle.AbstractLifecycleManager - Starting connector: connector.file.mule.default
+2017-12-27 09:09:33,601 [main] INFO  org.mule.modules.oauth2.provider.agents.DefaultSplashScreenAgent - 
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
++ DevKit Extensions (0) used in this application 
+                             +
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+2017-12-27 09:09:33,605 [main] INFO  org.mule.lifecycle.AbstractLifecycleManager - Starting model: _muleSystemModel
+2017-12-27 09:09:33,609 [main] INFO  org.mule.construct.FlowConstructLifecycleManager - Starting flow: file-to-string
+2017-12-27 09:09:33,613 [main] INFO  org.mule.processor.SedaStageLifecycleManager - Starting service: file-to-string.stage1
+2017-12-27 09:09:34,325 [main] INFO  org.mule.transport.file.FileConnector - Registering listener: file-to-string on endpointUri: file:///D:/spring/File/file-to-string/
+2017-12-27 09:09:34,381 [main] INFO  org.mule.lifecycle.AbstractLifecycleManager - Initialising: 'null'. Object is: FileMessageReceiver
+2017-12-27 09:09:34,393 [main] INFO  org.mule.transport.file.FileMessageReceiver - Connecting clusterizable message receiver
+2017-12-27 09:09:34,397 [main] INFO  org.mule.lifecycle.AbstractLifecycleManager - Starting: 'null'. Object is: FileMessageReceiver
+2017-12-27 09:09:34,397 [main] INFO  org.mule.transport.file.FileMessageReceiver - Starting clusterizable message receiver
+2017-12-27 09:09:34,417 [main] INFO  org.mule.module.management.agent.WrapperManagerAgent - This JVM hasn't been launched by the wrapper, the agent will not run.
+2017-12-27 09:09:34,453 [main] INFO  org.mule.module.management.agent.AbstractJmxAgent - Attempting to register service with name: Mule.file-to-string:type=Endpoint,service="file-to-string",connector=connector.file.mule.default,name="endpoint..D.spring.File.file.to.string"
+2017-12-27 09:09:34,456 [main] INFO  org.mule.module.management.agent.AbstractJmxAgent - Registered Endpoint Service with name: Mule.file-to-string:type=Endpoint,service="file-to-string",connector=connector.file.mule.default,name="endpoint..D.spring.File.file.to.string"
+2017-12-27 09:09:34,457 [main] INFO  org.mule.module.management.agent.AbstractJmxAgent - Registered Connector Service with name Mule.file-to-string:type=Connector,name="connector.file.mule.default"
+2017-12-27 09:09:34,465 [main] INFO  org.mule.DefaultMuleContext - 
+**********************************************************************
+* Application: file-to-string                                        *
+* OS encoding: \, Mule encoding: UTF-8                               *
+*                                                                    *
+* Agents Running:                                                    *
+*   Batch module default engine                                      *
+*   JMX Agent                                                        *
+*   DevKit Extension Information                                     *
+*   Wrapper Manager                                                  *
+**********************************************************************
